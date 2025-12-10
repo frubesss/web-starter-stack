@@ -9,38 +9,25 @@ import React from "react";
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "WebApplication",
-  name: "NPM Upgrade Assistant",
-  applicationCategory: "DeveloperApplication",
-  url: "https://npm-upgrade-assistant.com",
-  description:
-    "Analyse breaking changes and migration steps when upgrading npm packages — concise, actionable insights.",
+  "@type": "update type",
+  name: "update",
+  applicationCategory: "update",
+  url: "update",
+  description: "update",
   inLanguage: "en",
   operatingSystem: "Any",
 } as const;
 
 export const metadata: Metadata = {
-  metadataBase: "https://npm-upgrade-assistant.com",
+  metadataBase: "update",
   title: {
-    default: "NPM Upgrade Assistant",
-    template: "%s · NPM Upgrade Assistant",
+    default: "update",
+    template: "update",
   },
-  description:
-    "Analyse breaking changes and migration steps when upgrading npm packages — concise, actionable insights.",
-  applicationName: "NPM Upgrade Assistant",
-  authors: [{ name: "Craig Robertson" }],
-  keywords: [
-    "npm",
-    "upgrade",
-    "assistant",
-    "breaking changes",
-    "migration",
-    "changelog",
-    "dependencies",
-    "javascript",
-    "typescript",
-    "node.js",
-  ],
+  description: "update",
+  applicationName: "update",
+  authors: [{ name: "update" }],
+  keywords: ["update"],
   alternates: {
     canonical: "/",
   },
@@ -48,18 +35,11 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   openGraph: {
-    title: "NPM Upgrade Assistant",
-    description:
-      "Quickly understand breaking changes and migration steps for npm package upgrades.",
+    title: "update",
+    description: "update",
     type: "website",
-    url: "https://npm-upgrade-assistant.com",
-    siteName: "NPM Upgrade Assistant",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "NPM Upgrade Assistant",
-    description:
-      "Actionable insights for upgrading npm packages: breaking changes, migration steps, and new features.",
+    url: "update",
+    siteName: "update",
   },
   robots: {
     index: true,
