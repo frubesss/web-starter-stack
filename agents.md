@@ -38,7 +38,7 @@
 
 - Find similar features/components
 - Identify common patterns and conventions
-- Use the same libraries /utilities when possible
+- Use the same libraries/utilities when possible
 - Follow existing test patterns
 
 ### Tooling
@@ -54,6 +54,8 @@
 - Refer to linter configurations and .editorconfig, if present
 - Text files should always end with an empty line
 - Don't put comments in the code unless it is to help the AI in the future
+- Always use basic html elements https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements unless told otherwise
+- Do not add CSS or styling unless stated otherwise
 
 ## Important Reminders
 
