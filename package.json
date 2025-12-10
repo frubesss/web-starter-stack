@@ -47,6 +47,6 @@
     "eslint-config-next": "16.0.8",
     "eslint-config-prettier": "10.1.8",
     "typescript": "5.9.3",
-    "prettier": "3.7.3"
+    "prettier": "3.7.4"
   }
 }
